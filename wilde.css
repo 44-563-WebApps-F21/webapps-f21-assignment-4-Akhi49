@@ -18,7 +18,7 @@
    background-color:chocolate;
 }
 .MRS.ALLONBY{
-    color: red;
+    color:red;
 }
 .LADYCARLOINE{
     color:seagreen;
@@ -27,5 +27,25 @@
     color:springgreen;
 }
 .LADYHUNSTANTON{
-    color: violet;
+    color:violet;
+}
+.name:hover{
+    text-show:2px 3px 4px rgb(255,192,203);
+    color:orange;
+    filter: green(3px);
+    border:solid 3px rgb(198, 192, 255)
+}
+ul.navbar-horizantal li{
+    float:left;
+    color:rgb(255, 192, 192)
+    background-color:red;
+}
+ul.navbar-horizantal a{
+    display:block;
+    padding:10px;
+    color:green;
+}
+ul.navbar-horizantal a:hover{
+    background-color:hotpink;
+    color:lavenderblush;
 }
