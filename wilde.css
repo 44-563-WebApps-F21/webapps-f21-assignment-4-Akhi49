@@ -1,0 +1,31 @@
+.speech{
+    color:black;
+    font-size: 17px;
+    font-family:Times New Roman;
+}
+.stagedirection{
+    color:black;
+    font-family:Times New Roman;
+    background-color: blanchedalmond;
+}
+.name{
+    color:black;
+    font-size: 17px;
+    font-family:Times New Roman;
+}
+.stagedirection:hover{
+    color:blue;
+   background-color:chocolate;
+}
+.MRS.ALLONBY{
+    color: red;
+}
+.LADYCARLOINE{
+    color:seagreen;
+}
+.LADYSTUTFIELD{
+    color:springgreen;
+}
+.LADYHUNSTANTON{
+    color: violet;
+}
