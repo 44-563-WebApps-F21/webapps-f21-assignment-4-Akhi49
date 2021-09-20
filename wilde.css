@@ -3,7 +3,7 @@
     font-size: 17px;
     font-family:Times New Roman;
 }
-.stagedirection{
+.stage-direction{
     color:black;
     font-family:Times New Roman;
     background-color: blanchedalmond;
@@ -13,14 +13,14 @@
     font-size: 17px;
     font-family:Times New Roman;
 }
-.stagedirection:hover{
+.stage-direction:hover{
     color:blue;
    background-color:chocolate;
 }
 .MRS.ALLONBY{
-    color:red;
+    color:darkcyan;
 }
-.LADYCARLOINE{
+.LADYCAROLINE{
     color:seagreen;
 }
 .LADYSTUTFIELD{
@@ -56,3 +56,24 @@ tr:nth-child(even){
     filter: green(3px);
     border:solid 3px rgb(198, 192, 255)
 }
+ul.navbar-horizontal{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+ul.navbar-horizontal li{
+    float:left;
+    color:blueviolet;
+    background-color: crimson;
+}
+ul.navbar-horizontal a{
+    display: block;
+    padding:10px;
+    color:green;
+}
+ul.navbar-horizontal a.hover{
+    background-color:brown ;
+    color:cyan;
+}
+
+
