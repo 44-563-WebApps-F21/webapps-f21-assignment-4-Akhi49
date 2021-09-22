@@ -44,14 +44,14 @@ th{
 td{
     color:blue;
     border: 1px solid black;
-    text-align: left;
+       text-align: left;
 }
 tr:nth-child(even){
     background-color: chocolate;
 
 }
 .name:hover{
-    text-shadow: 2px 3px 4px red;
+    text-shadow: 2px 3px 4px red2;
     filter: blur(1px);
     border:solid 3px rgb(198, 192, 255)
 }
@@ -74,5 +74,34 @@ ul.navbar-horizontal a.hover{
     background-color:brown ;
     color:cyan;
 }
+.icon:before{
+    content: '';
+    background:url('dear.jpg');
+    background-size:cover;
+    position:absolute;
+    width:50px;
+    height:20px;
+    margin-top:-15px;
+}
+.iconLady:before{
+    content: '';
+    background:url('lady.png');
+    background-size:cover;
+    position:absolute;
+    width:50px;
+    height:40px;
+    margin-top:-15px;
+}
+.content {
+    position: relative;
+}
+.content img {
+    position: absolute;
+    top: 350px;
+    right: 30px;
+    height: 415px;
+    width: 350px;
+}
+
 
 
